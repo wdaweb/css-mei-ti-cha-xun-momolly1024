@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Merriweather:wght@300&family=Noto+Serif+TC:wght@300&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            box-sizing: border-box;
+            font-family: 'Noto Serif TC', serif;
+        }
+
+        @media (min-width:1200px) {
+            .container {
+                margin: auto;
+                display: flex;
+                /* justify-content: center; */
+                /* align-items: center; */
+
+                position: relative;
+                height: 1000px;
+            }
+
+
+
+            .item {
+                /* width: 200px;
+            height: 130px; */
+                text-align: center;
+            }
+
+            .item>p {
+                opacity: 0;
+            }
+
+            .center>h3 {
+                margin-top: 1rem;
+            }
+
+            .center>p {
+                opacity: 1;
+
+            }
+
+            img {
+                width: 300px;
+                object-fit: cover;
+            }
+
+            .item>h1 {
+                font-size: 1rem;
+            }
+
+            .center {
+                position: absolute;
+                top: 45%;
+                left: 45%;
+
+                /*  */
+                padding: 1rem;
+                /* background-color: black; */
+                margin-bottom: 1rem;
+            }
+
+            .html {
+                position: absolute;
+                top: 5%;
+                left: 10%;
+            }
+
+            .html>.line {
+                width: 1px;
+                background-color: rgb(173, 167, 167);
+                height: 600px;
+                transform: rotate(-65deg);
+                top: 30%;
+                left: 100%;
+                position: absolute;
+            }
+
+            .css {
+                position: absolute;
+                top: 1%;
+                left: 29%;
+            }
+
+            .css>.line {
+                width: 1px;
+                background-color: rgb(173, 167, 167);
+                height: 400px;
+                transform: rotate(-45deg);
+                top: 50%;
+                left: 80%;
+                position: absolute;
+            }
+
+            .boostrap {
+                position: absolute;
+                top: 1%;
+                left: 70%;
+            }
+
+            .boostrap>.line {
+                width: 1px;
+                background-color: rgb(173, 167, 167);
+                height: 450px;
+                transform: rotate(45deg);
+                top: 30%;
+                left: 0%;
+                position: absolute;
+            }
+
+            .sass {
+                position: absolute;
+                top: 41%;
+                left: 80%;
+            }
+
+            .sass>.line {
+                width: 1px;
+                background-color: rgb(173, 167, 167);
+                height: 400px;
+                transform: rotate(85deg);
+                top: 0%;
+                left: 0%;
+                position: absolute;
+            }
+
+            .vue {
+                position: absolute;
+                bottom: -20%;
+                right: 1%;
+            }
+
+            .vue>.line {
+                width: 1px;
+                background-color: rgb(173, 167, 167);
+                height: 500px;
+                transform: rotate(-35deg);
+                top: -100%;
+                left: 15%;
+                position: absolute;
+            }
+
+            .jquery {
+                position: absolute;
+                top: 75%;
+                left: 20%;
+            }
+
+            .jquery>.line {
+                width: 1px;
+                background-color: rgb(173, 167, 167);
+                height: 400px;
+                transform: rotate(45deg);
+                top: -30%;
+                left: 80%;
+                position: absolute;
+            }
+
+            .javascript {
+                position: absolute;
+                top: 45%;
+                left: 1%;
+            }
+
+            .javascript>.line {
+                width: 1px;
+                background-color: rgb(173, 167, 167);
+                height: 500px;
+                transform: rotate(88deg);
+                top: -10%;
+                left: 120%;
+                position: absolute;
+            }
+        }
+
+        @media (max-width:1260px) {
+            .line {
+                opacity: 0;
+            }
+        }
+
+        @media (max-width:1200px) {
+            .item>p {
+                opacity: 1;
+                margin-bottom: 1rem;
+            }
+
+            .container {
+                margin: auto;
+            }
+
+            .item {
+                width: 100%;
+                display: block;
+                text-align: center;
+                margin: 2rem;
+                border-bottom: 1px solid black;
+
+
+            }
+
+            img {
+                max-width: 100%;
+                width: 280px;
+
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item html">
+
+            <img src="./images/html.png" alt="">
+            <h3>html</h3>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, alias!</p>
+            <div class="line"></div>
+        </div>
+
+        <div class="item css">
+            <div class="line"></div>
+
+            <img src="./images/css.png" alt="">
+            <h3>css</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, alias!</p>
+            <div class="line"></div>
+        </div>
+        <div class="item boostrap">
+
+            <img src="./images/bs.png" alt="">
+            <h3>boostrap</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, alias!</p>
+            <div class="line"></div>
+        </div>
+        <div class="item sass">
+
+            <img src="./images/sass.png" alt="">
+            <h3>sass</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, alias!</p>
+            <div class="line"></div>
+        </div>
+        <div class="item vue">
+
+            <img src="./images/vue.png" alt="">
+            <h3>vue.js</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, alias!</p>
+            <div class="line"></div>
+        </div>
+        <div class="item center">
+
+            <img src="./images/wda.png" alt="">
+            <h3>泰山職訓局</h3>
+            <p class="show">網頁前端:包含基礎 JavaScript 語法、JQuery 函式庫 以及 Vue.js 框架<br>
+                後端伺服器:
+                Node.js 是能夠在伺服器端運行 JavaScript 的跨平台執行環境。<br>
+                資料庫:
+                MongoDB 是文件導向的資料庫系統，為目前最靈活易用的 NoSQL 之一。</p>
+            <div class="line"></div>
+        </div>
+        <div class="item jquery">
+
+            <img src="./images/jq.png" alt="">
+            <h3>jquery</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, alias!</p>
+            <div class="line"></div>
+        </div>
+        <div class="item javascript">
+
+            <img src="./images/js.png" alt="">
+            <h3>javascript</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, alias!</p>
+            <div class="line"></div>
+        </div>
+    </div>
+</body>
+
+</html>
